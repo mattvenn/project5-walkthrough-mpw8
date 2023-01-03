@@ -1,0 +1,14 @@
+{
+    "DESIGN_NAME": "rgb_mixer",
+    "VERILOG_FILES": "dir::../../verilog/rtl/rgb_mixer/src/*.v",
+    "DESIGN_IS_CORE": "0",
+    "GLB_RESIZER_MAX_SLEW_MARGIN": 1,
+    "GLB_RESIZER_MAX_CAP_MARGIN": 1,
+    "RT_MAX_LAYER": "met4",
+    "FP_SIZING": "absolute",
+    "DIE_AREA": "0 0 200 200",
+    "CLOCK_PORT": "clk",
+    "VDD_NETS": ["vccd1"],
+    "GND_NETS": ["vssd1"],
+    "CLOCK_PERIOD": 10.0
+}
